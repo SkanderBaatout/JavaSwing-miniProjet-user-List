@@ -45,6 +45,9 @@ public class MyForm extends JFrame {
         Pbtn.add(this.ajouter);
 
         Pbtn.setLayout(new FlowLayout(FlowLayout.RIGHT));
+        ajouter.setBackground(Color.CYAN);
+        Liste.setBackground(Color.CYAN);
+
 
         JPanel Psouth = new JPanel(new FlowLayout(FlowLayout.RIGHT));
         JPanel Pnorth = new JPanel();

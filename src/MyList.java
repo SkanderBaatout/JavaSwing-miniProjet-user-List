@@ -28,7 +28,7 @@ public class MyList extends JFrame {
         this.sp = new JScrollPane(this.tab);
         PListe.setBorder(new TitledBorder(new LineBorder(Color.GRAY, 1,true),"Liste des utilisateurs"));
         PListe.add(sp);
-        cv.setBackground(Color.black);
+        cv.setBackground(Color.BLACK);
        Container C=getContentPane();
         C.setLayout(new BorderLayout());
         C.add("North",PListe);

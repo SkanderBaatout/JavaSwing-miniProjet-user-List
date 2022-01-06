@@ -4,6 +4,7 @@ public class Personne {
     public String nom;
     public String genre;
     public int id;
+
     public Personne(String nom, String genre, int id) {
         this.nom = nom;
         this.genre = genre;
